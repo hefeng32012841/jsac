@@ -1,0 +1,35 @@
+.w {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.out {
+	float: left;
+	width: 100%;
+}
+
+.inner {
+	margin: 0 100px;
+	background-color: #f00;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}
+
+.left {
+	width: 100px;
+	margin-left: -100%;
+	float: left;
+	background-color: blue;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}
+
+.right {
+	width: 100px;
+	margin-left: -100px;
+	float: left;
+	background-color: yellow;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}

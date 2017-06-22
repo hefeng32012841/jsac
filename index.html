@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet" href="./threeColumn.css">
+	<style>
+		 .wrapper {
+      background-color: #ddd;
+     }
+    .content{
+        background-color:#6699FF;
+        width:200px;
+        height:5000px;
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        margin-top:-100px ;   //二分之一的height，width
+    }
+    img {
+      /* display: inline-block; */
+     /*  opacity: 0;
+      transition: 1s; */
+    }
+
+    img.show {
+      opacity: 1;
+    }
+    .box {
+      height: 200px;
+      width: 200px;
+      background-color: #fff;
+      /* animation: anima 2s linear; */
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1000000;
+      opacity: .5;
+    }
+
+    @keyframes anima {
+      from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(100px, 100px);
+      }
+    }
+
+    .list {
+      display: inline-flex;
+      background-color: #e1e2e3;
+      flex-direction: column;
+    }
+
+    .list-item {
+      width: 10px;
+      background-color: #ff0;
+      height: 100px;
+      /* flex: 1; */
+    }
+	</style>
+</head>
+<body>
+<script src="http://code.jquery.com/jquery-latest.js" defer></script>
+	 <div class="wrapper">
+        <div class="box">
+          <span>asdasssssssssssdasdasdddasdasdas</span>
+        </div>
+        <!-- <div class="content"></div> -->
+        <img id="img" src="http://p1.so.qhimg.com/t01d4d10b6430449bb6.jpg" alt="">
+        <img src="https://gss0.baidu.com/8_BXsjip0QIZ8tyhnq/timg?wh_rate=0&wapiknow&quality=100&size=w250&sec=0&di=614e353c7d8b7b1bebc181c72318e434&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fzhidao%2Fwh%253D800%252C450%2Fsign%3D227ff680dbc8a786be7f42065739e509%2F0df431adcbef76094c56cfe524dda3cc7cd99e6e.jpg" alt="">
+        <div>1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</div>
+    </div>
+
+    <div class="w">
+      <div class="out">
+        <div class="inner">sddddddddddddddddddd</div>
+      </div>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="list">
+      <div class="list-item"></div>
+      <div class="list-item"></div>
+      <div class="list-item"></div>
+      <div class="list-item"></div>
+    </div>
+</body>
+
+</html>
